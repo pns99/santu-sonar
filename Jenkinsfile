@@ -5,7 +5,7 @@ node {
     }
     stage ("Compile-package") {
 	    //mvntest
-	def mvnHOME = tool name: 'mymaven', type: 'maven'
-        sh "$mvnHOME}/bin/mvn package"
+	//def mvnHOME = tool name: 'mymaven', type: 'maven'
+        sh "/opt/maven/bin/mvn package"
     }
 }

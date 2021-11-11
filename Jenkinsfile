@@ -8,4 +8,6 @@ node {
 	//def mvnHOME = tool name: 'mymaven', type: 'maven'
         sh "/opt/maven/bin/mvn package"
     }
+	stage ("Email Notification") {
+		
 }

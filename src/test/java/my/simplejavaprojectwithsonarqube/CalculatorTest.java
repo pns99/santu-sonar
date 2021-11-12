@@ -46,22 +46,3 @@ public class CalculatorTest {
 		assertEquals(3, result);		
 	}	
 }
-###########################################################
-	@Test
-	public void testMultiply()
-	{
-		
-		Calculator calculator = new Calculator();
-		int result = calculator.multiply(6, 2);
-		assertEquals(12, result);		
-	}
-
-	@Test
-	public void testDivide()
-	{
-	
-		Calculator calculator = new Calculator();
-		int result = calculator.divide(6, 2);
-		assertEquals(3, result);		
-	}	
-}
